@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+body{
+    background-color: whitesmoke;
+    /* background-color: #FEED61; */
+}
+
+/* universal section starts here */
+.container{
+    margin: 0 auto;
+    padding: 3%;
+    
+}
+
+
+.container1{
+    margin: 0 auto;
+    padding: 4%;
+    
+}
+/* universaln */
+
+/* header section starts here */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .icon-blog{
+    display: flex;
+    align-items: center;
+
+}
+
+header button{
+    padding: 0.5rem 1rem;
+    background-color: #B8FEE6;
+    border-radius: 4px;
+    color: #30D6A6;
+}
+
+header button:hover{
+    background-color: #30D6A6;
+    color: white;
+}
+
+header a{
+    color: grey;
+   
+}
+
+header nav a:hover{
+    color:  #2869E7;
+}
+
+
+header nav  .home{
+    color: #2869E7;
+}
+
+header h2{
+    color: #626276;
+}
+
+/* header section ends here */
+
+
+/* About section starts here */
+
+#about{
+    margin-top: 60px;
+}
+
+#about .about1{
+    display: flex;
+  
+    justify-content: space-around;
+}
+
+
+
+
+#about .top-info{
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  background-color: #DBF2E8;
+  width: 290px;
+  height: 40px;
+  margin-left: 150px;
+  border-radius: 20px;
+  padding: 5px;
+ 
+  
+  
+  
+}
+
+#about .top-info p{
+    text-align: center;
+    color: #23CB85;
+    font-size: 0.9rem;
+    margin-left: 25px;
+}
+
+#about .top-info i{
+    margin-right: -10px;
+}
+
+#about h2{
+    font-size: 2.6rem;
+    padding-bottom: 20px;
+    line-height: 50px;
+}
+
+#about .info-down{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+#about .info-down p{
+    line-height: 30px;
+    color: grey;
+    font-size: 1.2rem;
+
+}
+
+#about button{
+    padding: 0.8rem 1.9rem;
+    border-radius: 20px;
+    background-color: #0100FC;
+    color: white;
+    margin-top: 40px;
+}
+
+#about button:hover{
+    background-color: white;
+    color: #0100FC;
+}
+
+.about2 img{
+   height: 100%;
+   margin-right: 75px;
+}
+
+
+
+/* About section ends here */
+
+
+/* achievement starts here */
+
+#achievement .achievement-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+#achievement .achievement-desc{
+    display: flex;
+    align-items: center;
+    margin-left: -105px;   
+   
+}
+
+#achievement .achievement-down h3{
+   text-align: center;
+   color: #5980F3;
+}
+
+#achievement .achievement-down h2{
+    text-align: center;
+    color: #252541;
+    margin-top: 20px;
+ }
+
+
+ #achievement .achievement-down{
+    padding-bottom: 70px;
+ }
+
+
+ #achievement .card-rate{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+ }
+
+
+ #achievement .card{
+
+    width: 330px;
+    height: 340px;
+    background-color: #fff;
+    border-radius: 7px;
+ 
+ }
+
+ #achievement .card span{
+    color: #6292F4;
+ }
+
+
+ #achievement .card .page{
+    color: #D2D1D9;
+ }
+
+
+ #achievement .card-down .p-text{
+    color: #5389EE;
+ }
+ 
+
+
+
+ #achievement  .num{
+    font-size: 1.5rem;
+ }
+
+ #achievement .image-card{
+    display: flex;
+    gap: 20px;
+
+ }
+
+
+ #achievement .card-main{
+    display: flex;
+    align-items: center;
+  gap: 50px;
+  padding-left: 191px;
+  
+   
+   
+ }
+
+
+
+ #achievement .card-text{
+    padding-bottom: 30px;
+ }
+
+
+ #achievement .rate{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+ 
+
+
+ #achievement .card p{
+    line-height: 30px;
+  
+ }
+
+
+ #achievement .card-down p{
+    line-height: 30px;
+ }
+
+
+ #achievement .card-down h2{
+    font-size: 1.4rem;
+    line-height: 30px;
+ }
+
+ #achievement .card-img{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+ }
+
+/* achievement ends here */
+
+
+/* down section starts here */
+
+#down-sec{
+    margin-top: 70px;
+}
+#down-sec .down-info{
+    display: flex;
+   
+    justify-content: space-around;
+    padding-bottom: 30px;
+    
+}
+
+#down-sec .down-info1{
+    display: flex;
+    
+    justify-content: space-around;
+    padding-bottom: 30px;
+    
+}
+
+
+#down-sec .down-info2{
+    display: flex;
+  
+    justify-content: space-around;
+    
+}
+
+
+
+
+
+
+#down-sec .top-info p{
+    text-align: center;
+    
+}
+
+#down-sec .text1{
+    font-size: 2rem;
+    padding-bottom: 20px;
+    line-height: 50px;
+}
+
+#down-sec h3{
+   color: #6EA2F8;
+   
+    line-height: 50px;
+}
+
+#down-sec .info-down{
+    margin-top: 40px;
+}
+
+#down-sec .info-down .text{
+    line-height: 30px;
+    color: grey;
+    font-size: 1.2rem;
+
+}
+
+#down-sec .down-level{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+#down-sec .down-person{
+    display: flex;
+    align-items: center;
+
+    margin-top: 60px;
+    gap: 20px;
+}
+
+
+#down-sec button{
+    padding: 0.8rem 1.9rem;
+    border-radius: 20px;
+    color: #5E88F2;
+    margin-top: 40px;
+    background-color: #FFFFFF;
+}
+
+/* #down-sec .btn{
+    background-color: blueviolet;
+} */
+
+
+
+
+/* down section ends here */
+
+
+/* review starts here */
+
+#review h3{
+    text-align: center;
+    color: #5079ED;
+}
+
+#review h2{
+
+    text-align: center;
+    color: #424351;
+    margin-top: 20px;
+}
+
+
+#review .info{
+
+    text-align: center;
+}
+
+#review .review-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+    margin-top: 60px;
+
+  
+       
+}
+
+
+
+#review .review-but{
+    background-color: blue;
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: .5rem;
+    /* color: #FFFFFF; */
+    margin-left: -475px;
+    display: flex;
+}
+
+#review .review-but p{
+    margin-left: 10px;
+}
+
+
+#review .review-input{
+margin-left: 30px;
+background-color: #fff;
+width: 500px;
+padding: 17px;
+border-radius: 3px;
+color:#CECED8
+  
+}
+
+
+#review .text-go{
+    text-align: center;
+    font-size: 1rem;
+   
+}
+
+
+#review span{
+    color: #FEED61;
+    font-size: 1.2rem;
+    gap: 10px;
+}
+
+/* review ends here */
+
+
+/* footer section starts here */
+
+footer{
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+footer nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+
+}
+
+footer nav a{
+ color: grey;
+}
+
+footer nav a:hover{
+    color:  #2869E7;
+}
+
+footer p{
+    color: grey;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 40px;
+  
+}
+/* foot section ends here */
